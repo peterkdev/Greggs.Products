@@ -11,14 +11,14 @@ namespace Greggs.Products.Api.DataAccess
     {
         private static readonly IEnumerable<Product> ProductDatabase = new List<Product>()
         {
-            new Product {Name = "Sausage Roll", PriceInPounds = 1m},
-            new Product {Name = "Vegan Sausage Roll", PriceInPounds = 1.1m},
-            new Product {Name = "Steak Bake", PriceInPounds = 1.2m},
-            new Product {Name = "Yum Yum", PriceInPounds = 0.7m},
-            new Product {Name = "Pink Jammie", PriceInPounds = 0.5m},
-            new Product {Name = "Mexican Baguette", PriceInPounds = 2.1m},
-            new Product {Name = "Bacon Sandwich", PriceInPounds = 1.95m},
-            new Product {Name = "Coca Cola", PriceInPounds = 1.2m}
+            new Product {Name = "Sausage Roll", Price = 1m},
+            new Product {Name = "Vegan Sausage Roll", Price = 1.1m},
+            new Product {Name = "Steak Bake", Price = 1.2m},
+            new Product {Name = "Yum Yum", Price = 0.7m},
+            new Product {Name = "Pink Jammie", Price = 0.5m},
+            new Product {Name = "Mexican Baguette", Price = 2.1m},
+            new Product {Name = "Bacon Sandwich", Price = 1.95m},
+            new Product {Name = "Coca Cola", Price = 1.2m}
         };
 
         public IEnumerable<Product> List(int? pageStart, int? pageSize)
