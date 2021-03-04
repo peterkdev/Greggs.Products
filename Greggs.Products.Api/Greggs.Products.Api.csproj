@@ -9,4 +9,7 @@
   </ItemGroup>
 
 
+  <ItemGroup>
+    <Folder Include="Currency Conversion\" />
+  </ItemGroup>
 </Project>
